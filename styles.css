@@ -39,21 +39,22 @@ label {
   margin: 0.5rem 0;
 }
 
-input,
-textarea,
 select {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 2em;
+  height: 30px;
 }
 
 input, textarea{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
     padding: 0;
     border: 0;
     text-indent: 10px;
     font-size: 15px;
 }
-
 
 .inline, .options {
   width: unset;
