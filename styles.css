@@ -1,6 +1,7 @@
 body{
     background-color: #0F0F16;
     font-family: Tahoma;
+    font-size: 20px;
 }
 
 h1{
@@ -45,6 +46,14 @@ select {
   width: 100%;
   min-height: 2em;
 }
+
+input, textarea{
+    padding: 0;
+    border: 0;
+    text-indent: 10px;
+    font-size: 15px;
+}
+
 
 .inline, .options {
   width: unset;
